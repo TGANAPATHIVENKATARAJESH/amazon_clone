@@ -1,0 +1,29 @@
+.hero-img {
+  height: 100%;
+  object-fit: cover; /* Makes the image cover the entire area */
+  width: 100%;
+}
+
+.hero-image-container {
+  position: relative;
+  height: 500px; /* Set a fixed height for the carousel images */
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds text shadow for readability */
+}
+
+.carousel-caption h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
